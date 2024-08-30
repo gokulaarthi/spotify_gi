@@ -1,0 +1,487 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    
+}
+body{
+    background-color:#000000;
+}
+
+.main .firstbox{
+    animation-name: gokul; 
+    animation-duration: 3s;
+}
+ @keyframes gokul{
+    0%{
+        margin-left:-500px ;
+    }
+}
+.main .secondbox{
+    animation-name: second;
+    animation-duration: 3s;
+}
+@keyframes second{
+    0%{
+        margin-left: -500px;
+    }
+}
+ 
+ 
+.firstbox{
+    width: 380px;
+    height: 200px;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    position:relative;
+    list-style: none;
+    left: 10px;
+    top: 9px;
+    border-radius: 10px;
+    
+    
+}
+.firstbox li img{
+    height: 30px;
+    width: 30px;
+    word-spacing: 5px;
+    margin-top: -5px;
+}
+
+.firstbox li a{
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 1.3rem;
+  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.firstbox li{
+position:relative;
+top: 30px;
+left:30px;
+font-weight: 600;
+ margin: 10px 19px;
+}
+
+.secondbox{
+    height: 610px;
+    width: 380px;
+    background-color:   #121212;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    position:relative;
+    list-style: none;
+    left: 10px;
+    top: 15px;
+/* position: relative; */
+}
+ 
+.contenti{
+    background-color:  #242424 ;
+    height: 150px;
+    width: 330px;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    margin-left: 10px;
+
+}
+.contenti button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+ } 
+ /* .contentscroll{
+    overflow: scroll;
+    height: 200px;
+ } */
+ .contie{
+    background-color: #242424 ;
+    height: 150px;
+    width: 330px;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    margin-left: 10px;
+    line-height:35px ;
+ }
+ .contie button{
+    height: 30px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    
+ } 
+ .last{
+    margin-left: 12px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+   
+
+ }
+ .last a{
+    text-decoration: none;
+    color:  rgba(138, 155, 149, 0.351);
+ }
+ .secondbox .but {
+   border: 1px solid white;
+   width: 100px;
+   height: 30px;padding: 2px 5px;
+   border-radius: 10px;
+   margin: 40px;
+ }
+ /* animation */
+
+
+ /* the second part of the main page */
+.parent{
+    display: grid;
+    grid-template-columns: 400px 600px;}
+.secondmain .nav{
+    width:1236px;
+    background-color: #101010;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-weight: 800;
+    font-size: large;
+    position: fixed ;
+   
+    animation-name: navo;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+}
+@keyframes navo{
+    0%{
+     margin-top: -70px;
+    }
+ }
+.insty{
+padding-right: 30px; text-decoration: none; color: white;
+}
+
+ 
+
+.secondmain .navlog{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(200, 185, 185);
+    
+    padding-right: 50px; text-decoration: none; color: rgb(0, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+.popular{
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 1236px;
+    background-color: #171616;
+    padding-top: 90px;
+    animation-name: secondo;
+    animation-duration: 2s;
+     
+}
+@keyframes secondo{
+    0%{
+        opacity: 0;
+    }
+}
+.ar img{
+    border-radius: 50%;
+}
+.ar{
+    margin: 30px 20px;
+}
+.ar a{
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+}
+.ani img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 34px;
+}
+.sid img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+.imagesi{
+    display: flex;
+    justify-content: space-around;
+}
+.vis img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+.shre img{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 35px;
+}
+.he{
+    display: flex; 
+    justify-content: space-between;
+}
+.albim img{
+    height: 150px;
+    width: 150px;
+}
+.animal img{
+    height: 150px;
+    width: 150px;
+}
+.aashiq img{
+    height: 150px;
+    width: 150px;
+}
+.master img{
+    height: 150px;
+    width: 150px;
+}
+.albums{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.ki{
+    display: flex;
+    justify-content: space-between;
+}
+.ra{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20PX;
+}
+.ra img{
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+}
+.ra img:hover{
+    border-radius:20px ;
+}
+@media screen  and (max-width:590px){
+    .firstbox{
+   width: 190px;
+    }
+    .secondbox{
+        width: 190px;
+        height: 900px;
+    }
+    .contenti{
+        width: 170px;
+        height:200px;
+    }
+    .contie{
+        width: 170px;
+        height:265px;
+    }
+    .contie button{
+        height: 40px;
+        width: 100px;
+    }
+    .last{
+        margin-left: 12px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .parent{
+        display: grid;
+        grid-template-columns: 200px 200px}
+    .secondmain .nav{
+        width:295px;
+        
+    }
+     
+    .albums{
+        display: block;
+margin-left: 49px;
+    }
+    .albums img{
+        margin-top: 22px;
+    }
+    .he{
+        display: block;
+    }
+    .ki{
+        display: block;
+        margin:20px;
+    }
+    .ra img{
+        margin-top: 20px;
+    }
+    .ra{
+        display: block;
+        margin-left:35px ;
+    }
+    .main{
+        position: fixed;
+    }
+    .secondmain{
+        margin-left: 210px;
+    }
+    .imagesi{
+        display: block;
+        margin-left: 35px;
+    }
+}
+@media screen and (min-width:591px) and (max-width:900px){
+      
+     .secondmain .nav{
+        width: 570px;
+     }
+     .main{
+        position: fixed;
+     }
+     .secondmain{
+        margin-left: 270px;
+       
+     }
+     .secondmain{
+        margin-left:- 100px;
+     }
+     .secondbox{
+        width: 250px;
+        height: 900px;
+        
+     }
+     .firstbox{
+        width: 250px;
+    
+         
+     }
+     .contenti{
+        width: 170px;
+        height:200px;
+    }
+    .contie{
+        width: 170px;
+        height:265px;
+    }
+    .contie button{
+        height: 40px;
+        width: 100px;
+    }
+    .albums{
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .ra{
+        margin: 19px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .ra img{
+        margin-top: 19px;
+    }
+ .ki{
+    display: block;
+    margin: 20px;
+ }   
+ .popular{
+    width: 700px;
+ }
+ .imagesi{
+    /* margin-left:-400px; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ }
+ .he{
+    display: block;
+    margin: 19px;
+ }
+ .albums img{
+       margin-top: 29px; 
+ }
+}
+@media screen and (min-width:901px) and (max-width:1300px)  {
+   .imagesi{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   }
+   .firstbox{
+    width: 200px;
+   }
+   .secondbox{
+
+    width: 200px;
+    height: 750px;
+   }
+   .contie{
+    width: 180px;
+    height: 250px;
+   }
+   .contie button{
+width: 150px;
+   }
+   .contenti{
+    width: 180px;
+   }
+    .last {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .main{
+        position: fixed;
+     }
+     .secondmain{
+        margin-left:220px;
+     }
+     .albums{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+     }
+     .ra{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+     }
+     .secondmain .nav{
+        width: 1000px;
+     }
+     .he{
+        display: block; margin: 20px;
+     }
+     .albums img {
+        margin-top : 20px ;  margin-left: 10px;
+     }
+     .ki{
+        display: block;
+     }
+     .ra{
+        margin-left: 20px;
+     }
+     .ra img{
+        margin: 19px;
+     }
+    
+}
+

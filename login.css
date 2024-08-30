@@ -1,0 +1,47 @@
+.para {
+    border: 2px solid grey;
+    height: 50px;
+    width: 240px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    background-color: green;
+    width: 180px;
+    height: 30px;
+    border-radius: 20px;
+}
+.login:hover{
+    background-color: rgb(12, 94, 12);
+}
+a{
+    
+    color: white;
+   
+ }
+  .mainparent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.in{
+    background-color: transparent;
+
+}
+.in:hover{
+    background-color: aliceblue;
+}
+p:hover{
+    background-color: #1ED760;
+}
+a:hover{
+    background-color: #1ED760;
+}

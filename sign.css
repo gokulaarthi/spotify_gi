@@ -1,0 +1,33 @@
+span{
+    display: inline-block;
+}
+.para {
+    border: 2px solid grey;
+    height: 50px;
+    width: 240px;
+    border-radius: 20px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+a{
+color: white;
+}
+body{
+    background-color: black;
+    color: white;
+
+}
+.mai{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  margin-top: 100px;
+}
+.para:hover{
+    background-color:  #1ED760;
+}
+a:hover{
+    color: #1ED760;
+}
